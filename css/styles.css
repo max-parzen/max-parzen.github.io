@@ -8563,7 +8563,7 @@ button.bg-dark:focus {
 
   .pt-md-3,
 .py-md-3 {
-    padding-top: 1rem !important;
+    padding-top: 2rem !important;
   }
 
   .pr-md-3,
@@ -10120,6 +10120,7 @@ h3 {
 .masthead .masthead-heading {
   font-size: 2.75rem;
   line-height: 2.75rem;
+  padding-bottom: 2rem;
 }
 .masthead .masthead-subheading {
   font-size: 1.25rem;
