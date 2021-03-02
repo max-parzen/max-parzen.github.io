@@ -67,7 +67,57 @@ body {
   color: #212529;
   text-align: left;
   background-color: #fff;
+  justify-content: center;
 }
+
+*{box-sizing: border-box;}
+
+bodyform {
+  font-family: "Lato", -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, "Helvetica Neue", Arial, "Noto Sans", sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol", "Noto Color Emoji";
+  font-size: 1.3rem;
+  font-weight: 400;
+  line-height: 1.5;
+  color: #212529;
+  text-align: center;
+  align-items: center;
+  display: flex;
+  justify-content: center;
+  background-color: #1abc9c;
+}
+
+form{
+    background: #cbd4d2;
+    padding: 60px;
+    padding-bottom: 30px;
+    padding-top: 30px;
+    width: 550px;
+    align-items: center;
+    max-height: calc(100% - 60px);
+}
+
+.form-element{
+    display: flex;
+    flex-direction: column;
+    margin-bottom: 20px;
+}
+
+.form-element span {
+    margin-bottom: 10px;
+}
+
+form button{
+    width: 100%;
+    padding: 14px;
+    color: white;
+    background: indianred;
+    cursor: pointer;
+    border-radius: 5px;
+    border: none;
+    font-size: 25px;
+}
+
+
+
 
 [tabindex="-1"]:focus:not(:focus-visible) {
   outline: 0 !important;
@@ -239,7 +289,7 @@ button:focus {
   outline: 5px auto -webkit-focus-ring-color;
 }
 
-input,
+
 button,
 select,
 optgroup,
@@ -247,6 +297,13 @@ textarea {
   margin: 0;
   font-family: inherit;
   font-size: inherit;
+  line-height: inherit;
+}
+
+input{
+  margin: 0;
+  font-family: inherit;
+  font-size: 20px;
   line-height: inherit;
 }
 
