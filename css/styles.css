@@ -41,6 +41,7 @@
   --font-family-monospace: SFMono-Regular, Menlo, Monaco, Consolas, "Liberation Mono", "Courier New", monospace;
 }
 
+
 *,
 *::before,
 *::after {
@@ -10300,3 +10301,34 @@ form .row:first-child .floating-label-form-group {
 .copyright {
   background-color: #1a252f;
 }
+
+ /* Style buttons */
+ .btn-blue {
+  background-color: DodgerBlue;
+  border: none;
+  color: white;
+  padding: 12px 30px;
+  cursor: pointer;
+  font-size: 20px;
+  border-radius: 8px;
+}
+
+.btn-red {
+  background-color: rgb(255, 45, 30);
+  border: none;
+  color: white;
+  padding: 12px 30px;
+  cursor: pointer;
+  font-size: 20px;
+  border-radius: 8px;
+}
+
+/* Darker background on mouse-over */
+.btn-blue:hover {
+  background-color: RoyalBlue;
+}
+
+/* Darker background on mouse-over */
+.btn-red:hover {
+  background-color: rgb(199, 16, 16);
+} 
