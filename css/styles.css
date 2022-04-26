@@ -251,7 +251,8 @@ img {
   display: block;
   margin-left: auto;
   margin-right: auto;
-  width: 90%;
+  margin-bottom: 5%;
+  width: 100%;
 }
 
 svg {
@@ -10307,20 +10308,20 @@ form .row:first-child .floating-label-form-group {
   background-color: DodgerBlue;
   border: none;
   color: white;
-  padding: 12px 30px;
+  padding: 8px 22.5px;
   cursor: pointer;
-  font-size: 20px;
-  border-radius: 8px;
+  font-size: 15px;
+  border-radius: 6px;
 }
 
 .btn-red {
   background-color: rgb(255, 45, 30);
   border: none;
   color: white;
-  padding: 12px 30px;
+  padding: 8px 22.5px;
   cursor: pointer;
-  font-size: 20px;
-  border-radius: 8px;
+  font-size: 15px;
+  border-radius: 6px;
 }
 
 /* Darker background on mouse-over */
