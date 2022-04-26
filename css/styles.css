@@ -10314,6 +10314,17 @@ form .row:first-child .floating-label-form-group {
   border-radius: 6px;
 }
 
+ /* Style buttons */
+ .btn-orange {
+  background-color: orange;
+  border: none;
+  color: white;
+  padding: 8px 22.5px;
+  cursor: pointer;
+  font-size: 15px;
+  border-radius: 6px;
+}
+
 .btn-red {
   background-color: rgb(255, 45, 30);
   border: none;
