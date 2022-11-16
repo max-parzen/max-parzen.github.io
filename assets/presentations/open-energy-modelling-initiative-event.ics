@@ -1,0 +1,12 @@
+BEGIN:VCALENDAR
+VERSION:2.0
+PRODID:-//Discourse//EN
+BEGIN:VEVENT
+UID:1669377600000_1669381200000
+DTSTAMP:20221116T180908Z
+DTSTART:20221125T120000Z
+DTEND:20221125T130000Z
+SUMMARY:Open Energy Modelling Event - How open energy modelling can save the planet?
+DESCRIPTION: You can access the zoom details, learn more about agenda/speakers by opening the openmod link: https://forum.openmod.org/t/event-how-open-energy-modelling-can-save-the-planet-unlocking-potentials-in-research-and-industry/3473
+END:VEVENT
+END:VCALENDAR
