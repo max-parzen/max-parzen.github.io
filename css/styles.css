@@ -5374,7 +5374,7 @@ a.badge-dark:focus, a.badge-dark.focus {
 }
 
 button.close {
-  padding: 0;
+  padding: 10px;
   background-color: transparent;
   border: 0;
 }
@@ -10308,10 +10308,11 @@ form .row:first-child .floating-label-form-group {
   background-color: DodgerBlue;
   border: none;
   color: white;
-  padding: 8px 22.5px;
+  padding: 10px 20px;  /* Padding around the button */
+  margin: 4px 2px;  /* Margin around the button */
   cursor: pointer;
-  font-size: 15px;
-  border-radius: 6px;
+  font-size: 12px;
+  border-radius: 2px;
 }
 
  /* Style buttons */
@@ -10319,20 +10320,22 @@ form .row:first-child .floating-label-form-group {
   background-color: orange;
   border: none;
   color: white;
-  padding: 8px 22.5px;
+  padding: 10px 20px;  /* Padding around the button */
+  margin: 4px 2px;  /* Margin around the button */
   cursor: pointer;
-  font-size: 15px;
-  border-radius: 6px;
+  font-size: 12px;
+  border-radius: 2px;
 }
 
 .btn-red {
   background-color: rgb(255, 45, 30);
   border: none;
   color: white;
-  padding: 8px 22.5px;
+  padding: 10px 20px;  /* Padding around the button */
+  margin: 4px 2px;  /* Margin around the button */
   cursor: pointer;
-  font-size: 15px;
-  border-radius: 6px;
+  font-size: 12px;
+  border-radius: 2px;
 }
 
 /* Darker background on mouse-over */
